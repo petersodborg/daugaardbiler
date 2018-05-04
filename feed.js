@@ -16,8 +16,8 @@ $('#action-button').click(function() {
          //console.log(data);
          //var $all = $('<p>').text(data);
           $.each(data, function(i, data){
-            $('#info')
-            .append("<h1> Model:" + data.Model + "</h1>")
+            $('.col-md-4')
+            .append("<col-md-4><h1> Model:" + data.Model + "</h1>")
             .append("<h1> make:" + data.Make + "</h1>")
             .append("<p> variant:" + data.Variant + "</p>")
             .append("<li> registrationDate:" + data.RegistrationDate + "</li>")
